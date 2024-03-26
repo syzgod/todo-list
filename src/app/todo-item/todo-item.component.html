@@ -1,0 +1,39 @@
+<ul>
+  <li class="bg-gray-300 list-none border-round p-3 w-fit">
+    <span>#{{ index + 1 }}</span>
+    <p class="uppercase">{{ item }}</p>
+    <div class="flex gap-1">
+      <p-button
+        icon="pi pi-check"
+        iconPos="left"
+        size="small"
+        [raised]="true"
+        [rounded]="true"
+      ></p-button>
+      <p-button
+        icon="pi pi-trash"
+        iconPos="left"
+        size="small"
+        severity="danger"
+        [raised]="true"
+        [rounded]="true"
+      ></p-button>
+      <p-button
+        icon="pi pi-chevron-up"
+        iconPos="left"
+        size="small"
+        severity="help"
+        [raised]="true"
+        [rounded]="true"
+      ></p-button>
+      <p-button
+        icon="pi pi-chevron-down"
+        iconPos="left"
+        size="small"
+        severity="help"
+        [raised]="true"
+        [rounded]="true"
+      ></p-button>
+    </div>
+  </li>
+</ul>
